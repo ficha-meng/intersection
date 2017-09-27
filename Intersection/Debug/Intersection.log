@@ -1,0 +1,36 @@
+﻿2017/09/27 12:43:32 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\hu\Desktop\Intersection\Intersection\Intersection.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\opencv2.4.9\build\include /IC:\opencv\opencv2.4.9\build\include\opencv /IC:\opencv\opencv2.4.9\build\include\opencv2 /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib "..\GMS-Feature-Matcher-master\src\demo.cpp"
+         demo.cpp
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(145): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(146): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(150): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(151): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(155): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(156): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(160): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(161): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(174): warning C4244: '初期化中' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(175): warning C4244: '初期化中' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(221): warning C4244: '=' : 'const double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(222): warning C4244: '=' : 'const double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\hu\desktop\intersection\gms-feature-matcher-master\src\../include/gms_matcher.h(411): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>..\GMS-Feature-Matcher-master\src\demo.cpp(11): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'histinfo' の左辺を無視します。
+     1>..\GMS-Feature-Matcher-master\src\demo.cpp(181): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>..\GMS-Feature-Matcher-master\src\demo.cpp(182): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>..\GMS-Feature-Matcher-master\src\demo.cpp(186): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>..\GMS-Feature-Matcher-master\src\demo.cpp(187): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>..\GMS-Feature-Matcher-master\src\demo.cpp(194): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>..\GMS-Feature-Matcher-master\src\demo.cpp(196): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\opencv\opencv2.4.9\build\include\opencv2\core\types_c.h(315): warning C4793: cvRound': ネイティブ関数としてコンパイルされました:
+         	インラインのネイティブ アセンブリはマネージ コードでサポートされていません
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hu\Desktop\Intersection\Debug\Intersection.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\opencv2.4.9\build\x86\vc12\lib opencv_contrib249d.lib opencv_video249d.lib opencv_imgproc249d.lib opencv_core249d.lib opencv_highgui249d.lib opencv_calib3d249d.lib opencv_ml249d.lib opencv_objdetect249d.lib opencv_features2d249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hu\Desktop\Intersection\Debug\Intersection.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\demo.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Intersection.vcxproj -> C:\Users\hu\Desktop\Intersection\Debug\Intersection.exe
+     1>プロジェクト "C:\Users\hu\Desktop\Intersection\Intersection\Intersection.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.24
